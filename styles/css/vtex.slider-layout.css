@@ -1,0 +1,27 @@
+.sliderLayoutContainer{
+    flex-direction: column;
+    max-width: 900px;
+    margin: 2rem auto;
+  }
+  .paginationDotsContainer {
+    margin-top: 10px;
+    position: relative;
+    background: #303030;
+  }
+  .sliderLayoutContainer--carousel{
+      background: #303030;
+  }
+  .paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+    background-color: #59FF00;
+  }
+  .sliderLayoutContainer :global(.vtex-slider-layout-0-x-sliderArrows) {
+    bottom: 0
+  }
+  
+  .caretIcon {
+    color: aliceblue;
+  }
+  
+  .sliderLayoutContainer--shelf {
+    width: 915px;
+  }

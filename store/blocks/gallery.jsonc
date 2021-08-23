@@ -1,0 +1,69 @@
+{
+    "gallery#lb": {
+      "props": {
+        "layouts": [
+          {
+            "name": "grid",
+            "component": "GridSummary",
+            "itemsPerRow": {
+              "(min-width: 1300px)": 2,
+              "desktop": 2,
+              "tablet": 2,
+              "phone": 1
+            }
+          },
+          {
+            "name": "list",
+            "component": "ListSummary",
+            "itemsPerRow": 1
+          }
+        ],
+        "ListSummary": "product-summary.shelf#lb",
+        "GridSummary": "product-summary.shelf#lb"
+      }
+    },
+    "product-summary.shelf#lb": {
+      "children": [
+        "product-summary-name",
+        "product-images#lb",
+        "vtex.product-highlights@2.x:product-highlights#1",
+        "vtex.product-highlights@2.x:product-highlights#2",
+        "product-summary-price",
+        "add-to-cart-button#lb"
+      ]
+    },
+    "product-images#lb": {
+      "props": {
+        "showNavigationArrows": true,
+        "showPaginationDots": true
+      }
+    },
+    "vtex.product-highlights@2.x:product-highlights#1": {
+      "children": [
+        "product-highlight-text#1"
+      ]
+    },
+    "product-highlight-text#1": {
+      "props": {
+        "message": "PRÉ-LANÇAMENTO",
+        "link": ""
+      }
+    },
+    "vtex.product-highlights@2.x:product-highlights#2": {
+      "children": [
+        "product-highlight-text#2"
+      ]
+    },
+    "product-highlight-text#2": {
+      "props": {
+        "message": "VALIDAÇÃO A PARTIR DE 09/10/2021",
+        "link": ""
+      }
+    },
+    "add-to-cart-button#lb": {
+      "props": {
+        "onClickBehavior": "go-to-product-page",
+        "text": "VER DETALHES"
+      }
+    }
+  }

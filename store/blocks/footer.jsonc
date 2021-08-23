@@ -1,0 +1,90 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ]
+  },
+  "footer-layout.mobile":{
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "logo#footer1",
+      "logo#footer2",
+      "logo#footer3",
+      "logo#footer4"
+    ]
+  },
+  "logo#footer1": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/1836/1836092.png",
+      "href": "https://isadoracsf--hiringcoders2021.myvtex.com/login",
+      "width": "70px"
+    }
+  },
+  "logo#footer2": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/1152/1152912.png",
+      "href": "https://isadoracsf--hiringcoders2021.myvtex.com",
+      "width": "70px"
+    }
+  },
+  "logo#footer3": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/1374/1374128.png",
+      "href": "https://isadoracsf--hiringcoders2021.myvtex.com/checkout/#/cart",
+      "width": "70px"
+    }
+  },
+  "logo#footer4": {
+    "props": {
+      "url": "https://cdn.icon-icons.com/icons2/1463/PNG/512/whatsapp-black_100119.png",
+      "href": "https://api.whatsapp.com/send?phone=5548991170016&text=Ol%C3%A1%2C%20cliquei%20no%20link%20na%20p%C3%A1gina%20do%20Desafio%203%20",
+      "width": "70px"
+    }
+  },
+  "flex-layout.row#footer-mobile":{
+    "children": [
+      "logo#footer1-mobile",
+      "logo#footer2-mobile",
+      "logo#footer3-mobile",
+      "logo#footer4-mobile"
+    ]
+  },
+  "logo#footer1-mobile": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/1836/1836092.png",
+      "href": "https://isadoracsf--hiringcoders2021.myvtex.com/login",
+      "width": "35px"
+    }
+  },
+  "logo#footer2-mobile": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/1152/1152912.png",
+      "href": "https://isadoracsf--hiringcoders2021.myvtex.com",
+      "width": "35px"
+    }
+  },
+  "logo#footer3-mobile": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/1374/1374128.png",
+      "href": "https://isadoracsf--hiringcoders2021.myvtex.com/checkout/#/cart",
+      "width": "35px"
+    }
+  },
+  "logo#footer4-mobile": {
+    "props": {
+      "url": "https://cdn.icon-icons.com/icons2/1463/PNG/512/whatsapp-black_100119.png",
+      "href": "https://api.whatsapp.com/send?phone=5548991170016&text=Ol%C3%A1%2C%20cliquei%20no%20link%20na%20p%C3%A1gina%20do%20Desafio%203%20",
+      "width": "35px"
+    }
+  }
+}

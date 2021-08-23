@@ -1,0 +1,30 @@
+{
+    "search-result-layout.customQuery#corinthians": {
+      "props": {
+        "querySchema": {
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "skip",
+          "mapField": "ft",
+          "queryField": "Corinthians",
+          "maxItemsPerPage": 8
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#corinthians"
+      ]
+    },
+    "search-result-layout.desktop#corinthians": {
+      "children": [
+        "search-content#corinthians"
+      ],
+      "props": {
+        "preventRouteChange": true
+      }
+    },
+    "search-content#corinthians": {
+      "blocks": [
+        "gallery#lb",
+        "not-found"
+      ]
+    }
+  }

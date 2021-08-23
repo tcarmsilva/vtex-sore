@@ -1,0 +1,30 @@
+{
+    "search-result-layout.customQuery#promocao": {
+      "props": {
+        "querySchema": {
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "skip",
+          "mapField": "ft",
+          "queryField": "Combo",
+          "maxItemsPerPage": 8
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#promocao"
+      ]
+    },
+    "search-result-layout.desktop#promocao": {
+      "children": [
+        "search-content#promocao"
+      ],
+      "props": {
+        "preventRouteChange": true
+      }
+    },
+    "search-content#promocao": {
+      "blocks": [
+        "gallery#lb",
+        "not-found"
+      ]
+    }
+  }

@@ -1,0 +1,30 @@
+{
+    "search-result-layout.customQuery#signos": {
+      "props": {
+        "querySchema": {
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "skip",
+          "mapField": "fq",
+          "queryField": "Signos",
+          "maxItemsPerPage": 8
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#signos"
+      ]
+    },
+    "search-result-layout.desktop#signos": {
+      "children": [
+        "search-content#signos"
+      ],
+      "props": {
+        "preventRouteChange": true
+      }
+    },
+    "search-content#signos": {
+      "blocks": [
+        "gallery#lb",
+        "not-found"
+      ]
+    }
+  }

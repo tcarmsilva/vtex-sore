@@ -1,0 +1,28 @@
+  
+.flexRow {
+    background: #212121;
+  }
+  .flexRowContent{
+    justify-content: space-between;
+}
+/* .searchBarInnerContainer{
+  background-color: white;
+}
+  .flexCol--header {
+    width: 100%;
+  } */
+  .flexCol--product {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .flexRow--productItem {
+    margin: 2rem 0;
+  }
+  .flexRow--bannerContainer {
+    flex-direction: column;
+  }
+  
+  .stretchChildrenWidth {
+    width: auto;
+  }

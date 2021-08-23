@@ -1,0 +1,30 @@
+{
+    "search-result-layout.customQuery#divertidos": {
+        "props": {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
+                "mapField": "ft",
+                "queryField": "Divertidos",
+                "maxItemsPerPage": 8
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#divertidos"
+        ]
+    },
+    "search-result-layout.desktop#divertidos": {
+        "blocks": [
+            "search-content#divertidos"
+        ],
+        "props": {
+            "preventRouteChange": true //para n mudar de rota
+        }
+    },
+    "search-content#divertidos": {
+        "blocks": [
+            "gallery#lb",
+            "not-found"
+        ]
+    }
+}

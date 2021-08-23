@@ -1,0 +1,20 @@
+
+.brandName {
+    color: aliceblue;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .containerNormal{
+    background-color: #424345;
+  }
+  .nameContainer {
+    text-align: center;
+    justify-content: center;
+  }
+  .sellingPrice {
+    color: #4DFF00;
+  }
+  .buyButtonText {
+    color: #3C3C3C;
+  }
+  
